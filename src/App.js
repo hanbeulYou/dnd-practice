@@ -61,9 +61,7 @@ class App extends React.Component {
         <div className="container">
           <div className="moveable">
             <span>
-              React
-              <br />
-              Moveable
+              {this.props.context}
             </span>
           </div>
         </div>
